@@ -1,0 +1,14 @@
+h1 {
+    font-size: 3vw;
+}
+
+h3 {
+    font-size: 1.75vw;
+}
+
+.margin {
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 2vw;
+}
