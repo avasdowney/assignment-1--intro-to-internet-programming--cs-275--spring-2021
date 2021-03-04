@@ -1,14 +1,51 @@
+/**
+general text formatting
+**/
+
+h1, h3, p, ul {
+    font-family: 'Comfortaa', cursive;
+}
+
 h1 {
-    font-size: 3vw;
+    font-size: 30pt;
+    font-weight: bolder;
 }
 
 h3 {
-    font-size: 1.75vw;
+    font-size: 16pt;
 }
+
+p {
+    font-size: 14pt;
+}
+
+ul {
+    font-size: 14pt;
+}
+
+/**
+page formatting
+**/
 
 .margin {
     margin-top: 2vw;
-    margin-left: 5vw;
+    margin-left: clamp(270pt, 25%, 500pt);
     margin-right: 5vw;
     margin-bottom: 2vw;
+}
+
+.sidebar {
+    height: 90%;
+    width: clamp(200px, 20%, 430pt);
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(118, 218, 218);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    display: block;
 }
