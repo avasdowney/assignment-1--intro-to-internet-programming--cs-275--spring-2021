@@ -2,7 +2,7 @@
 general text formatting
 **/
 
-h1, h3, p, ul {
+h1, h3, p, ul, a {
     font-family: 'Comfortaa', cursive;
 }
 
@@ -29,7 +29,7 @@ page formatting
 **/
 
 body {
-    background-color: #aededd;
+    background-color: #bce7e7;
 }
 
 .margin {
@@ -58,6 +58,8 @@ body {
     overflow-x: hidden;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 5px;
+    
 }
 
 .sidebar a {
